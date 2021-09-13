@@ -1,5 +1,7 @@
 .about-section-container {
   padding-top: 0rem;
+  font-family: "Inter", sans-serif;
+
   .about-section-grid {
     background-color: #ffffff;
     border-radius: 40px;
@@ -7,15 +9,56 @@
     padding: 4rem;
     //   margin-top: 1rem;
     position: relative;
-    .grid-left {
-      div {
+    .grid-right {
+      .title {
+        font-weight: 700;
+        font-size: 2rem;
         color: #323334;
+      }
+
+      p {
+        margin: 1rem 0;
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: #323334;
+      }
+
+      .btn {
+        background-color: #00efe3;
+        padding: 0.7rem 2.5rem;
+        text-transform: none;
+        font-family: "Inter", sans-serif;
+        font-size: 0.8rem;
+        font-weight: 600;
+        border-radius: 30px;
+        margin-top: 1.3rem;
+        span {
+          color: #292929 !important;
+        }
       }
     }
 
-    .grid-right {
-      div {
-        color: #323334;
+    .grid-left {
+      padding-bottom: 2rem;
+    }
+  }
+
+  @media all and (max-width: 500px) {
+    .about-section-grid {
+      padding: 3rem 2rem;
+      //   margin-top: 1rem;
+      position: relative;
+      .grid-left {
+        div {
+          color: #323334;
+        }
+      }
+
+      .grid-right {
+        div {
+          color: #323334;
+        }
       }
     }
   }
@@ -24,7 +67,7 @@
   position: absolute;
   left: 0;
   background: #033098;
-
+  transform: translateY(-5px);
   height: 10rem;
   width: 100%;
   border-bottom-left-radius: 40px;

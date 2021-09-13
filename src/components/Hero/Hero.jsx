@@ -1,6 +1,6 @@
 import React from "react";
-import Lottie from 'react-lottie';
 import { Button, Grid } from "@material-ui/core";
+import Lottie from 'react-lottie';
 import laptopAnimation from '../../assets/Lottie/laptop.json'
 import "./Hero.scss";
 
@@ -19,9 +19,9 @@ export const Hero = () => {
         <Grid item md={7} className="title">
           <div>
             {/* <div className="title-1">Welcome to DigiBros</div> */}
-            <div className="title-2">We believe in creating trends that adds value to your business</div>
-            <div className="title-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-              cumque optio<br /> animi totam odio! Magni nisi, quod et minima laborum odio, tempore excepturi beatae <br />corporis id eligendi, ea vero harum?</div>
+            <div className="title-1">We believe in creating trends that adds value to your business</div>
+            <div className="title-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+              cumque optio animi totam odio! Magni nisi, quod et minima laborum odio, tempore excepturi beatae corporis id eligendi, ea vero harum?</div>
             {/* <div className="title-4"><LocationOnOutlinedIcon style={{ paddingTop: "0.6rem" }} />Based in Chhattisgarh, India.</div> */}
             <div className="call-to-action">
               <Button className="btn" variant="contained" color="primary" disableElevation>About Us</Button>
