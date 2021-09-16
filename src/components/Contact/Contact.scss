@@ -1,7 +1,7 @@
 .contact {
   background-color: #f3f4f5;
   font-family: "Roboto", sans-serif;
-  margin: 5rem 0;
+  margin: 5rem 0 8rem;
 
   .contact-container {
     background-color: #daeaff;
@@ -21,9 +21,9 @@
         margin-bottom: 4rem;
         h2 {
           color: #0f1d3d;
-          font-size: 2.7rem;
+          font-size: 3rem;
           font-weight: 600;
-          margin-bottom: 1rem;
+          margin-bottom: 1.5rem;
         }
         p {
           color: #0f1d3d;
@@ -41,8 +41,10 @@
         a {
           color: #0f1d3d;
           font-size: 1.2rem;
+          font-weight: 500;
+          transition: all 0.2s ease-in-out;
           &:hover {
-            color: #085dad;
+            color: #0146e7;
           }
         }
         &.phone {
@@ -52,17 +54,19 @@
         }
 
         .btn {
-          background-color: #00efe3;
+          background-color: #0146e7;
+          color: #ffffff;
           padding: 1.2rem 2.5rem;
           border-radius: 7px;
           font-size: 1rem;
           font-weight: 600;
-          transition: all 0.2s ease-in;
+          border: solid 2px #0146e7;
+          transition: all 0.1s ease-in;
 
           &:hover {
-            transform: translateY(-2px);
+            background-color: transparent;
             box-shadow: #0000004b 0px 20px 20px -20px;
-            color: #0f1d3d;
+            color: #0146e7;
           }
         }
       }

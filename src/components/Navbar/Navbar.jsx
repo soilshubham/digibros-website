@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Button } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/MenuRounded";
 import CloseIcon from "@material-ui/icons/Close";
+import logo from '../../assets/Logo/logo.png'
 import Dropdown from "react-multilevel-dropdown";
 import "./Navbar.scss";
 
@@ -19,7 +20,7 @@ export const Navbar = () => {
                         }}
                     ></div>
                 ) : null}
-                <div className="nav-logo">DigiBros</div>
+                <div className="nav-logo"><img src={logo} className="logo" /></div>
                 <ul className={`nav-links ${navBarToggle ? "active" : ""}`}>
                     <li>
                         <a href="#">Home</a>
@@ -33,16 +34,32 @@ export const Navbar = () => {
                     <li>
                         <Dropdown title="Services" position="right" buttonClassName="dropdown" menuClassName="dropdown-menu">
                             <Dropdown.Item className="dropdown-items">
-                                Item 1
+                                All Services
                             </Dropdown.Item>
                             <Dropdown.Item className="dropdown-items">
-                                Item 2
-                                <Dropdown.Submenu position="left" className="dropdown-submenu">
-                                    <Dropdown.Item className="dropdown-items">Subitem 1</Dropdown.Item>
-                                    <Dropdown.Item className="dropdown-items">Subitem 2</Dropdown.Item>
+                                Web Development
+                                <Dropdown.Submenu position={window.innerWidth <= 968 ? "right" : "left"} className="dropdown-submenu">
+                                    <Dropdown.Item className="dropdown-items">Web Designing</Dropdown.Item>
+                                    <Dropdown.Item className="dropdown-items">E-Commerce</Dropdown.Item>
                                 </Dropdown.Submenu>
                             </Dropdown.Item>
-                            <Dropdown.Item className="dropdown-items">Item 3</Dropdown.Item>
+                            <Dropdown.Item className="dropdown-items">
+                                Marketing
+                                <Dropdown.Submenu position={window.innerWidth <= 968 ? "right" : "left"} className="dropdown-submenu">
+                                    <Dropdown.Item className="dropdown-items">SEO</Dropdown.Item>
+                                    <Dropdown.Item className="dropdown-items">SEM</Dropdown.Item>
+                                    <Dropdown.Item className="dropdown-items">SMM</Dropdown.Item>
+                                    <Dropdown.Item className="dropdown-items">Content Marketing</Dropdown.Item>
+                                    <Dropdown.Item className="dropdown-items">Email marketing</Dropdown.Item>
+                                </Dropdown.Submenu>
+                            </Dropdown.Item>
+                            <Dropdown.Item className="dropdown-items">
+                                Creative
+                                <Dropdown.Submenu position={window.innerWidth <= 968 ? "right" : "left"} className="dropdown-submenu">
+                                    <Dropdown.Item className="dropdown-items">Graphic designing</Dropdown.Item>
+                                    <Dropdown.Item className="dropdown-items">Poster & Brochures</Dropdown.Item>
+                                </Dropdown.Submenu>
+                            </Dropdown.Item>
                         </Dropdown>
                     </li>
                     <li>
