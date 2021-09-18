@@ -12,7 +12,10 @@ export const Footer = () => {
                             <h2>DigiBros</h2>
                         </div>
                         <p>
-                            DigiBrosDigiBrosDigiBrosDigiBrosDigiBrosDigiBrosDigiBrosDigiBrosDigiBrosDigiBrosDigiBrosDigiBrosDigiBrosDigiBrosDigiBrosDigiBrosDigiBrosDigiBrosDigiBrosDigiBrosDigiBrosDigiBrosDigiBrosDigiBrosDigiBros
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut,
+                            quidem! Accusantium reiciendis ipsa, quisquam qui perferendis
+                            distinctio soluta quasi, nostrum neque, ratione quis molestiae!
+                            Quisquam quas rem at quidem praesentium.
                         </p>
                     </div>
                 </Grid>
