@@ -1,5 +1,5 @@
-import React from "react";
-import "./Footer.scss";
+import React from 'react'
+import './Footer.scss'
 import { Button, Grid, Typography } from "@material-ui/core";
 
 export const Footer = () => {
@@ -12,11 +12,11 @@ export const Footer = () => {
                             <h2>DigiBros</h2>
                         </div>
                         <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut,
-                            quidem! Accusantium reiciendis ipsa, quisquam qui perferendis
-                            distinctio soluta quasi, nostrum neque, ratione quis molestiae!
-                            Quisquam quas rem at quidem praesentium.
+                            DigiBros is a small startup. Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Architecto rerum,
+                            exercitationem commodi facere.
                         </p>
+
                     </div>
                 </Grid>
                 <Grid md={4} xs={12} className="footer-col">
@@ -25,16 +25,15 @@ export const Footer = () => {
                             <h2>Address</h2>
                         </div>
                         <p>
-                            3416 Holt Street, BLUE SPRINGS,
-                            <br />
-                            Andra Pradesh, 492001 India
-                            <br />
+                            3416 Holt Street, BLUE SPRINGS,<br />
+                            Andra Pradesh, 492001 India<br />
                             <strong>+91 9987123456</strong>
                         </p>
                     </div>
                 </Grid>
                 <Grid item md={4} xs={12} className="footer-col">
                     <div className="container container-right">
+
                         <div className="heading">
                             <a href="#">
                                 <i className="fab fa-facebook-f" />
@@ -49,11 +48,13 @@ export const Footer = () => {
                                 <i className="fab fa-whatsapp" />
                             </a>
                         </div>
-                        <p>We would love to hear from you!</p>
+                        <p>
+                            We would love to hear from you!
+                        </p>
                     </div>
                 </Grid>
             </Grid>
             <div className="copyright">Copyright © DigiBros</div>
         </div>
-    );
-};
+    )
+}
