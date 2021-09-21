@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/digibros-website/static/css/main.2026e299.chunk.css",
-    "main.js": "/digibros-website/static/js/main.427f7c46.chunk.js",
-    "main.js.map": "/digibros-website/static/js/main.427f7c46.chunk.js.map",
+    "main.css": "/digibros-website/static/css/main.7d60b3bf.chunk.css",
+    "main.js": "/digibros-website/static/js/main.f69fdf68.chunk.js",
+    "main.js.map": "/digibros-website/static/js/main.f69fdf68.chunk.js.map",
     "runtime-main.js": "/digibros-website/static/js/runtime-main.37e14c8f.js",
     "runtime-main.js.map": "/digibros-website/static/js/runtime-main.37e14c8f.js.map",
     "static/css/2.e5d00408.chunk.css": "/digibros-website/static/css/2.e5d00408.chunk.css",
-    "static/js/2.62b18510.chunk.js": "/digibros-website/static/js/2.62b18510.chunk.js",
-    "static/js/2.62b18510.chunk.js.map": "/digibros-website/static/js/2.62b18510.chunk.js.map",
+    "static/js/2.227f7b25.chunk.js": "/digibros-website/static/js/2.227f7b25.chunk.js",
+    "static/js/2.227f7b25.chunk.js.map": "/digibros-website/static/js/2.227f7b25.chunk.js.map",
     "index.html": "/digibros-website/index.html",
     "static/css/2.e5d00408.chunk.css.map": "/digibros-website/static/css/2.e5d00408.chunk.css.map",
-    "static/css/main.2026e299.chunk.css.map": "/digibros-website/static/css/main.2026e299.chunk.css.map",
-    "static/js/2.62b18510.chunk.js.LICENSE.txt": "/digibros-website/static/js/2.62b18510.chunk.js.LICENSE.txt",
-    "static/media/logo.7cd375b7.png": "/digibros-website/static/media/logo.7cd375b7.png"
+    "static/css/main.7d60b3bf.chunk.css.map": "/digibros-website/static/css/main.7d60b3bf.chunk.css.map",
+    "static/js/2.227f7b25.chunk.js.LICENSE.txt": "/digibros-website/static/js/2.227f7b25.chunk.js.LICENSE.txt",
+    "static/media/akhil.117434d4.jpg": "/digibros-website/static/media/akhil.117434d4.jpg",
+    "static/media/logo.7cd375b7.png": "/digibros-website/static/media/logo.7cd375b7.png",
+    "static/media/nitin.208f393a.jpg": "/digibros-website/static/media/nitin.208f393a.jpg",
+    "static/media/prakash.718d231b.jpg": "/digibros-website/static/media/prakash.718d231b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.37e14c8f.js",
     "static/css/2.e5d00408.chunk.css",
-    "static/js/2.62b18510.chunk.js",
-    "static/css/main.2026e299.chunk.css",
-    "static/js/main.427f7c46.chunk.js"
+    "static/js/2.227f7b25.chunk.js",
+    "static/css/main.7d60b3bf.chunk.css",
+    "static/js/main.f69fdf68.chunk.js"
   ]
 }
