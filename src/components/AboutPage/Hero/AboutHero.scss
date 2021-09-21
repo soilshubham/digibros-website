@@ -1,6 +1,6 @@
 .about-hero {
   font-family: "Roboto", sans-serif;
-
+  color: #0f1d3d;
   .grid-container {
     text-align: center;
 
@@ -58,9 +58,8 @@
             padding: 1rem;
             .card {
               background-color: #fff;
-              box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
-                rgba(9, 30, 66, 0.13) 0px 0px 1px 1.5px;
-              border-radius: 5px;
+
+              border-radius: 8px;
               color: #0f1d3d;
               padding: 2rem 2rem 1rem;
 
@@ -113,12 +112,73 @@
           }
         }
       }
+      .serv-cards {
+        .cards-grid {
+          margin: 3rem 0;
+          padding: 0 0rem;
+          text-align: center;
+          .card-item {
+            padding: 1rem;
+            .card {
+              background-color: #0146e7;
+
+              border-radius: 8px;
+              color: #ffffff;
+              padding: 2.5rem 2rem 1.5rem;
+
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              .icon {
+                margin-bottom: 1rem;
+                background-color: #ffffff;
+                width: 8rem;
+                height: 8rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                i {
+                  color: #0146e7;
+                  font-size: 2.5rem;
+                }
+              }
+              .title {
+                font-size: 1.5rem;
+                font-weight: 600;
+                padding: 1rem 0;
+              }
+              .learn-more {
+                background-color: #fff;
+                padding: 0.9rem 2rem;
+                border-radius: 50px;
+                border: solid 1.5px #ffffff;
+                color: #0146e7;
+                margin: 0.8rem 0rem;
+                font-size: 0.8rem;
+                font-weight: 500;
+                transition: all 0.2s ease;
+
+                &:hover {
+                  background-color: unset;
+                  color: #ffffff;
+                }
+              }
+
+              transition: all 0.2s ease-in-out;
+              &:hover {
+                transform: scale(1.03);
+              }
+            }
+          }
+        }
+      }
       .team-cards {
         .cards-grid {
           .card-item {
             .card {
-              box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
-                rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+              box-shadow: #052b5c0d 0px 6px 24px 0px, #052b5c0d 0px 0px 0px 1px;
               .icon {
                 overflow: hidden;
                 width: 13rem;
@@ -157,6 +217,9 @@
 
               transition: all 0.2s ease-in-out;
               &:hover {
+                background-color: #edf6fd;
+                box-shadow: #052b5c0d 0px 6px 24px 0px,
+                  #052b5c27 0px 0px 0px 1px;
                 transform: scale(1.03);
               }
             }
@@ -217,7 +280,7 @@
             .card-item {
               padding: 1rem 0;
               .card {
-                border-radius: 5px;
+                border-radius: 8px;
                 padding: 2rem 2rem 1rem;
 
                 .icon {
@@ -253,6 +316,62 @@
 
                   &:hover {
                     color: #2c6bff;
+                  }
+                }
+
+                transition: all 0.2s ease-in-out;
+                &:hover {
+                  transform: scale(1.03);
+                }
+              }
+            }
+          }
+        }
+        .serv-cards {
+          .cards-grid {
+            margin: 3rem 0;
+            padding: 0 0rem;
+            .card-item {
+              padding: 1rem 0;
+              .card {
+                background-color: #0146e7;
+                color: #ffffff;
+                border-radius: 8px;
+                padding: 2.5rem 2rem 1.5rem;
+
+                .icon {
+                  background-color: #ffffff;
+                  margin-bottom: 1rem;
+                  width: 7rem;
+                  height: 7rem;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  border-radius: 50%;
+                  i {
+                    color: #0146e7;
+                    font-size: 2.5rem;
+                  }
+                }
+                .title {
+                  font-size: 1.6rem;
+                  font-weight: 600;
+                  padding: 1rem 0;
+                }
+                .learn-more {
+                  background-color: #fff;
+                  padding: 0.7rem 1.7rem;
+                  border-radius: 50px;
+                  border: solid 1.5px #ffffff;
+                  color: #0146e7;
+                  margin: 0.8rem 0rem;
+                  font-size: 0.7rem;
+                  font-weight: 500;
+                  transition: all 0.2s ease;
+
+                  &:hover {
+                    background-color: unset;
+                    color: #ffffff;
                   }
                 }
 

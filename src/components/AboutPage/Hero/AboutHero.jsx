@@ -4,6 +4,7 @@ import { Button, Grid } from "@material-ui/core";
 import Akhil from '../../../assets/Images/akhil.jpg'
 import Nitin from '../../../assets/Images/nitin.jpg'
 import Prakash from '../../../assets/Images/prakash.jpg'
+import { Link } from 'react-router-dom';
 
 export const AboutHero = () => {
     return (
@@ -34,21 +35,21 @@ export const AboutHero = () => {
                                     <div className="card">
                                         <div className="icon"><i className="fas fa-window-restore" /></div>
                                         <div className="title">Web Development</div>
-                                        <a href="#" className="learn-more">Learn More <i className="fas fa-long-arrow-alt-right" /></a>
+                                        <Link to="/services" className="learn-more">Learn More</Link>
                                     </div>
                                 </Grid>
                                 <Grid item md={4} sm={12} xs={12} className="card-item">
                                     <div className="card">
                                         <div className="icon"><i className="fas fa-bullhorn" /></div>
                                         <div className="title">Marketing</div>
-                                        <a href="#" className="learn-more">Learn More <i className="fas fa-long-arrow-alt-right" /></a>
+                                        <Link to="/services" className="learn-more">Learn More</Link>
                                     </div>
                                 </Grid>
                                 <Grid item md={4} sm={12} xs={12} className="card-item">
                                     <div className="card">
                                         <div className="icon"><i className="fas fa-palette" /></div>
                                         <div className="title">Creative</div>
-                                        <a href="#" className="learn-more">Learn More <i className="fas fa-long-arrow-alt-right" /></a>
+                                        <Link to="/services" className="learn-more">Learn More</Link>
                                     </div>
                                 </Grid>
 
