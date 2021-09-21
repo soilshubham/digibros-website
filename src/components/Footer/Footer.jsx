@@ -12,9 +12,10 @@ export const Footer = () => {
                             <h2>DigiBros</h2>
                         </div>
                         <p>
-                            DigiBros is a small startup. Lorem ipsum dolor sit amet,
-                            consectetur adipisicing elit. Architecto rerum,
-                            exercitationem commodi facere.
+                            Digibros is a one-stop digital marketing company for all your needs. We have a young
+                            and talented team with great enthusiasm and creativity who can help your business fit
+                            into this modern Era.
+
                         </p>
 
                     </div>
@@ -25,9 +26,9 @@ export const Footer = () => {
                             <h2>Address</h2>
                         </div>
                         <p>
-                            3416 Holt Street, BLUE SPRINGS,<br />
-                            Andra Pradesh, 492001 India<br />
-                            <strong>+91 9987123456</strong>
+                            Saptagiri appartments flat no.203,<br />
+                            4/2 Lakshmipuram, Guntur (522007)<br />
+                            <strong>+91 8500690700</strong>
                         </p>
                     </div>
                 </Grid>
@@ -35,21 +36,22 @@ export const Footer = () => {
                     <div className="container container-right">
 
                         <div className="heading">
-                            <a href="#">
+                            <a target="_blank" href="https://www.facebook.com/profile.php?id=100072659270787">
                                 <i className="fab fa-facebook-f" />
                             </a>
-                            <a href="#">
-                                <i className="fab fa-twitter" />
+                            <a target="_blank" href="https://www.linkedin.com/in/digi-bros-2a5686220/">
+                                <i className="fab fa-linkedin" />
                             </a>
-                            <a href="#">
+                            <a target="_blank" href="https://www.instagram.com/digibros2021/">
                                 <i className="fab fa-instagram" />
                             </a>
-                            <a href="#">
+                            <a target="_blank" href="https://api.whatsapp.com/send?phone=+918500690700">
                                 <i className="fab fa-whatsapp" />
                             </a>
                         </div>
                         <p>
-                            We would love to hear from you!
+                            We would love to hear from you!<br />
+                            <strong><a href="mailto:digibros2021@gmail.com">digibros2021@gmail.com</a></strong>
                         </p>
                     </div>
                 </Grid>

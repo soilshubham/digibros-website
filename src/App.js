@@ -1,12 +1,22 @@
 import React, { Component } from 'react'
 import './App.scss'
 
-import { Home, About, Services, Contact } from './pages';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HomePage, AboutPage, ServicesPage, ContactPage } from './pages';
 
 
 const App = () => {
     return (
-        <Home />
+        <Router>
+            <Switch>
+                <Route exact path="/">
+                    <HomePage />
+                </Route>
+                <Route path="/about">
+                    <AboutPage />
+                </Route>
+            </Switch>
+        </Router>
     )
 }
 export default App;

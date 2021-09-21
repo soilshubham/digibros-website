@@ -3,11 +3,11 @@ import './pages.scss'
 
 import { Navbar, Hero, About, Services, Contact, Footer } from '../components';
 
-export const Home = () => {
+export const HomePage = () => {
     return (
         <>
             <div className="body">
-                <Navbar />
+                <Navbar variant="light" />
                 <Hero />
             </div>
             <div className="about">

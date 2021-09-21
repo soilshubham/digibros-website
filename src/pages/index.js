@@ -1,6 +1,6 @@
-export { About } from "./About";
-export { Contact } from "./Contact";
-export { Home } from "./Home";
-export { Services } from "./Services";
+export { AboutPage } from "./AboutPage";
+export { ContactPage } from "./ContactPage";
+export { HomePage } from "./HomePage";
+export { ServicesPage } from "./ServicesPage";
 
 

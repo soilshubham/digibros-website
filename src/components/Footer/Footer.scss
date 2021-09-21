@@ -39,14 +39,20 @@
           justify-content: center;
           align-items: flex-end;
           padding: 0rem 0 2rem 4rem;
-          a {
-            color: #ffffff79;
-            font-size: 1.8rem;
-            margin-left: 2rem;
-            transition: all 0.2s ease;
-            &:hover {
-              color: #00efe3;
+
+          .heading {
+            a {
+              color: #ffffff79;
+              font-size: 1.8rem;
+              margin-left: 2rem;
+              transition: all 0.2s ease;
+              &:hover {
+                color: #00efe3;
+              }
             }
+          }
+          a {
+            color: #ffffff;
           }
         }
       }
@@ -101,17 +107,19 @@
             justify-content: center;
             align-items: flex-start;
             padding: 0rem 0 2rem 0rem;
-            a {
-              color: #ffffff79;
-              font-size: 1.8rem;
-              margin-left: 0rem;
-              transition: all 0.2s ease;
-              &:hover {
-                color: #00efe3;
-              }
+            .heading {
+              a {
+                color: #ffffff79;
+                font-size: 1.8rem;
+                margin-left: 0rem;
+                transition: all 0.2s ease;
+                &:hover {
+                  color: #00efe3;
+                }
 
-              i {
-                padding-right: 2rem;
+                i {
+                  padding-right: 2rem;
+                }
               }
             }
           }

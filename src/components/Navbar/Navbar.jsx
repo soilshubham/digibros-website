@@ -5,8 +5,9 @@ import CloseIcon from "@material-ui/icons/Close";
 import logo from '../../assets/Logo/logo.png'
 import Dropdown from "react-multilevel-dropdown";
 import "./Navbar.scss";
+import { Link } from "react-router-dom";
 
-export const Navbar = () => {
+export const Navbar = ({ variant }) => {
     const [navBarToggle, setNavBarToggle] = useState(false);
 
     return (
@@ -21,43 +22,81 @@ export const Navbar = () => {
                     ></div>
                 ) : null}
                 <div className="nav-logo"><img src={logo} className="logo" /></div>
-                <ul className={`nav-links ${navBarToggle ? "active" : ""}`}>
+                <ul className={`nav-links ${navBarToggle ? "active" : ""} ${variant}`}>
                     <li>
-                        <a href="#">Home</a>
+                        <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <Link to="/about">About</Link>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <Link to="/contact">Contact</Link>
                     </li>
                     <li>
                         <Dropdown title="Services" position="right" buttonClassName="dropdown" menuClassName="dropdown-menu">
                             <Dropdown.Item className="dropdown-items">
-                                All Services
+                                <Link to="/services">
+                                    All Services
+                                </Link>
                             </Dropdown.Item>
                             <Dropdown.Item className="dropdown-items">
                                 Web Development
                                 <Dropdown.Submenu position={window.innerWidth <= 968 ? "right" : "left"} className="dropdown-submenu">
-                                    <Dropdown.Item className="dropdown-items">Web Designing</Dropdown.Item>
-                                    <Dropdown.Item className="dropdown-items">E-Commerce</Dropdown.Item>
+                                    <Link to="/services">
+                                        <Dropdown.Item className="dropdown-items">
+                                            Web Designing
+                                        </Dropdown.Item>
+                                    </Link>
+                                    <Link to="/services">
+                                        <Dropdown.Item className="dropdown-items">
+                                            E-Commerce
+                                        </Dropdown.Item>
+                                    </Link>
                                 </Dropdown.Submenu>
                             </Dropdown.Item>
                             <Dropdown.Item className="dropdown-items">
                                 Marketing
                                 <Dropdown.Submenu position={window.innerWidth <= 968 ? "right" : "left"} className="dropdown-submenu">
-                                    <Dropdown.Item className="dropdown-items">SEO</Dropdown.Item>
-                                    <Dropdown.Item className="dropdown-items">SEM</Dropdown.Item>
-                                    <Dropdown.Item className="dropdown-items">SMM</Dropdown.Item>
-                                    <Dropdown.Item className="dropdown-items">Content Marketing</Dropdown.Item>
-                                    <Dropdown.Item className="dropdown-items">Email marketing</Dropdown.Item>
+                                    <Link to="/services">
+                                        <Dropdown.Item className="dropdown-items">
+                                            SEO
+                                        </Dropdown.Item>
+                                    </Link>
+                                    <Link to="/services">
+                                        <Dropdown.Item className="dropdown-items">
+                                            SEM
+                                        </Dropdown.Item>
+                                    </Link>
+                                    <Link to="/services">
+                                        <Dropdown.Item className="dropdown-items">
+                                            SMM
+                                        </Dropdown.Item>
+                                    </Link>
+                                    <Link to="/services">
+                                        <Dropdown.Item className="dropdown-items">
+                                            Content Marketing
+                                        </Dropdown.Item>
+                                    </Link>
+                                    <Link to="/services">
+                                        <Dropdown.Item className="dropdown-items">
+                                            Email marketing
+                                        </Dropdown.Item>
+                                    </Link>
                                 </Dropdown.Submenu>
                             </Dropdown.Item>
                             <Dropdown.Item className="dropdown-items">
                                 Creative
                                 <Dropdown.Submenu position={window.innerWidth <= 968 ? "right" : "left"} className="dropdown-submenu">
-                                    <Dropdown.Item className="dropdown-items">Graphic designing</Dropdown.Item>
-                                    <Dropdown.Item className="dropdown-items">Poster & Brochures</Dropdown.Item>
+                                    <Link to="/services">
+                                        <Dropdown.Item className="dropdown-items">
+                                            Graphic designing
+                                        </Dropdown.Item>
+                                    </Link>
+                                    <Link to="/services">
+                                        <Dropdown.Item className="dropdown-items">
+                                            Poster & Brochures
+                                        </Dropdown.Item>
+                                    </Link>
                                 </Dropdown.Submenu>
                             </Dropdown.Item>
                         </Dropdown>
