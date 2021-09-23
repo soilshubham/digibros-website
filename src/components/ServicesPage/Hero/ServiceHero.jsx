@@ -1,55 +1,282 @@
 import React from 'react'
 import "./ServiceHero.scss";
 import { Button, Grid } from "@material-ui/core";
-import Akhil from '../../../assets/Images/akhil.jpg'
-import Nitin from '../../../assets/Images/nitin.jpg'
-import Prakash from '../../../assets/Images/prakash.jpg'
 import { Link } from 'react-router-dom';
 
+import Lottie from 'react-lottie';
+import {
+    WebDesigningLottie,
+    WebsiteForStartupLottie,
+    WebsiteForGrowingBusinessLottie,
+    WebsiteForRevampLottie,
+    EcommerceLottie,
+    SEOLottie,
+    SEMLottie,
+    SMMLottie,
+    ContentMarketingLottie,
+    EmailMarketingLottie,
+    GraphicDesignLottie,
+    PosterAndBrochureLottie,
+} from '../../../assets/Lottie/LottieFiles'
+import { SendOutlined } from '@material-ui/icons';
+
+
 export const ServiceHero = () => {
+
+
     return (
         <div className="services-hero">
             <div className="heading">Services</div>
             <div className="content">
-                <h1>Introduction</h1>
-                <p>
-                    <strong>DigiBros</strong> is a one-stop digital marketing company for all your needs. We have a young
-                    and talented team with great enthusiasm and creativity who can help your business fit
-                    into this modern Era. We help you with all your marketing needs - SEO, SEM, SMM,
-                    Email Marketing, Content Marketing, Graphic Designing and Posters & Brochures
-                    etc.
-                </p>
-                <p>
-                    We offer a service tailored to each client's budget and requirements with a team of
-                    experts who are passionate about what they do. We’ll see you through every step of the
-                    way - from getting you results to achieving your goals.
-                </p>
+                <Grid container className="grid-container">
+                    <Grid item md={7} xs={12} className="grid-item">
+                        <h1 style={{ paddingTop: "0rem" }}>1. Web Designing</h1>
+                        <p>
+                            <h3>Create a brand, not just a website</h3><br />
+                            <strong>Web designing is like a painting except the painting never dries. </strong> We know Web
+                            Designing refers to the design of the website displayed on the internet.
+                            For a website to be interactive and addictive it should look good from both the inside and
+                            the outside where the outside which the users sees and the inside part is what we do, our
+                            team from Digibros provide the client all the features they want.
 
-                <p>
-                    You'll never have to worry about whether or not we can provide services for your needs -
-                    because we can! We can handle all of your website needs from design to development
-                    and everything in between as well as offer full-service digital marketing services
-                </p>
-                <br />
-                <h1>Our Team</h1>
-                <p>
-                    We are the “Believers of creating profitable trends in your market” & we won’t stop
-                    working until we make it happen.
-                </p>
+                        </p>
+                    </Grid>
+                    <Grid item md={5} xs={12} className="grid-item">
+                        <Lottie isClickToPauseDisabled={true} options={WebDesigningLottie} width={400} />
+                    </Grid>
+                </Grid>
+                <Grid container className="grid-container">
+                    <Grid item md={7} xs={12} className="grid-item">
+                        <h2>Website for startup</h2>
+                        <p>
+                            For a startup to thrive or attract customers you need a great online presence and this can
+                            be done at our Digibros, kick start your business with the help of our well experienced
+                            team and working with people with unique ideas is always exhilarating. We will listen to
+                            all your desires and customize the website according to it.
+                        </p>
+                        <p>
+                            We provide you with the following services: Responsive Design, Analytic, Bespoke
+                            Design, Social Media Integration, CMS, Technical Support, Domain & Hosting, Majestic
+                            pictures, SEO Friendly.
+                        </p>
+                    </Grid>
+                    <Grid item md={5} xs={12} className="grid-item">
+                        <Lottie isClickToPauseDisabled={true} options={WebsiteForStartupLottie} width={400} />
+                    </Grid>
+                </Grid>
+                <Grid container className="grid-container">
+                    <Grid item md={7} xs={12} className="grid-item">
+                        <h2>Website for growing business</h2>
+                        <p>
+                            Boost your website to the maximum with the help of our dedicated team of digital
+                            analytics experts that will help you attract and convert more customers to your website
+                            enabling the growth of your business.
+                        </p>
+                        <p>
+                            if your website is not up to mark it will not be possible to convert the potential customers
+                            to customers so we of Digibros provide you with multiple features to make your website
+                            as interactive as possible and also design it in such a way it will attract more traffic to
+                            your website.
+                        </p>
+                    </Grid>
+                    <Grid item md={5} xs={12} className="grid-item">
+                        <Lottie isClickToPauseDisabled={true} options={WebsiteForGrowingBusinessLottie} width={400} />
+                    </Grid>
+                </Grid>
+                <Grid container className="grid-container">
+                    <Grid item md={7} xs={12} className="grid-item">
+                        <h2>Website for Revamp</h2>
+                        <p>
+                            In this world of fast internet your websites shows about your brand and identity and an
+                            outdated website which does not give any of the modern features and does not even look
+                            appalling will not only fail to find potential customers it might also lose its official
+                            customers so our Digibros provides you this opportunity to improve your website with all
+                            the modern features keeping in mind all your required specifications, target industry and
+                            target audience.
+                        </p>
+                        <p>
+                            Our team from Digibros provides you with top notch web design services and
+                            development services.
+                        </p>
+                        <p>
+                            We provide the following services: Landing Page Redesign, Redesigning the website, E-Commerce Website Redesign, Content Migration.
+                        </p>
+                    </Grid>
+                    <Grid item md={5} xs={12} className="grid-item">
+                        <Lottie isClickToPauseDisabled={true} options={WebsiteForRevampLottie} width={400} />
+                    </Grid>
+                </Grid>
 
-                <p>
-                    We help you with every step of your marketing journey: from getting your website
-                    ranked on Google to developing an effective content strategy that generates leads. In
-                    short - we do everything.<br /><br />
-                    We are the best choice for your business
-                </p>
+                {/* ==================================================== */}
+                <Grid container className="grid-container">
+                    <Grid item md={7} xs={12} className="grid-item">
+                        <h1>2. E-Commerce</h1>
+                        <p>
+                            <strong>Ecommerce</strong> , also known as electronic commerce or internet commerce, refers to the
+                            buying and selling of goods or services using the internet, and the transfer of money and
+                            data to execute these transactions.
+                        </p>
+                        <p>
+                            Our team from Digibros provides you with two servers for safety reasons for users so no
+                            privacy is breached and our team from Digibros also helps with the management of the
+                            server with all due respect.
+                        </p>
+                    </Grid>
+                    <Grid item md={5} xs={12} className="grid-item">
+                        <Lottie isClickToPauseDisabled={true} options={EcommerceLottie} width={400} />
+                    </Grid>
+                </Grid>
+                {/* ==================================================== */}
+                <Grid container className="grid-container">
+                    <Grid item md={7} xs={12} className="grid-item">
+                        <h1>3. SEO</h1>
+                        <p>
+                            <h3>Be the first priority to your customer.</h3><br />
+                            <strong>Google only loves you when everyone else loves you </strong> even though the statement is
+                            contradicting it’s true, to overcome this issue, we use Search engine optimization (SEO)
+                            which is the process of improving the quality and quantity of website traffic to a website
+                            or a web page from search engines.
+                        </p>
+                        <p>
+                            Successful seo is not tricking Google but rather partnering with it which makes our
+                            websites readily available for the user.
+                        </p>
+                    </Grid>
+                    <Grid item md={5} xs={12} className="grid-item">
+                        <Lottie isClickToPauseDisabled={true} options={SEOLottie} width={400} />
+                    </Grid>
+                </Grid>
+                {/* ==================================================== */}
+                <Grid container className="grid-container">
+                    <Grid item md={7} xs={12} className="grid-item">
+                        <h1>4. SEM</h1>
+                        <p>
+                            <h3>Be Everywhere</h3><br />
+                            Digital Marketing is not an art of selling a product. It is an art of making people buy the
+                            product that you sell. Strategic approach to this is through Search engine marketing
+                            (SEM) which is a form of Internet marketing that involves the promotion of websites by
+                            increasing their visibility in search engine results pages primarily through paid
+                            advertising.
+
+                        </p>
+                    </Grid>
+                    <Grid item md={5} xs={12} className="grid-item">
+                        <Lottie isClickToPauseDisabled={true} options={SEMLottie} width={400} />
+                    </Grid>
+                </Grid>
+                {/* ==================================================== */}
+                <Grid container className="grid-container">
+                    <Grid item md={7} xs={12} className="grid-item">
+                        <h1>5. SMM</h1>
+                        <p>
+                            <h3>Engage and entertain.</h3><br />
+                            Social media marketing is the use of social media platforms and websites to promote a
+                            product or service.
+                        </p>
+                        <p>
+                            Social media marketing is about sociology and psychology more than technology. As
+                            quoted by Jeff Bezos “If you make customers happy in the physical world, they might
+                            each tell 6 friends. If you make customers happy on the Internet, they can each tell 6,000
+                            friends.”
+                        </p>
+
+                    </Grid>
+                    <Grid item md={5} xs={12} className="grid-item">
+                        <Lottie isClickToPauseDisabled={true} options={SMMLottie} width={400} />
+                    </Grid>
+                </Grid>
+                {/* ==================================================== */}
+                <Grid container className="grid-container">
+                    <Grid item md={7} xs={12} className="grid-item">
+                        <h1>6. Content Marketing</h1>
+                        <p>
+                            <h3>Think before you ink</h3><br />
+                            Content marketing is a form of marketing focused on creating, publishing, and
+                            distributing content for a targeted audience online. Every digital marketing expert says
+                            that “Content Is King''. Because all the techniques we have mentioned need content.
+                            Whether it's SEO, SMM, SEM, Email Marketing, etc., will not work without content.
+                            That’s the importance of content marketing services.
+                        </p>
+                        <p>
+                            Content-based marketing gets repeated in social media and increases word-of-mouth
+                            mentions, it’s the best way to gather buzz about a product. Our team from Digibros will
+                            provide you with the best content.
+                        </p>
+
+                    </Grid>
+                    <Grid item md={5} xs={12} className="grid-item">
+                        <Lottie isClickToPauseDisabled={true} options={ContentMarketingLottie} width={400} />
+                    </Grid>
+                </Grid>
+                {/* ==================================================== */}
+                <Grid container className="grid-container">
+                    <Grid item md={7} xs={12} className="grid-item">
+                        <h1>7. Email Marketing</h1>
+                        <p>
+                            <h3>Old is Gold.</h3><br />
+                            Generally, Email Marketing is one of the ancient forms of marketing techniques. It is the
+                            process of sending attractive, informative emails to the targeted customers to generate the
+                            leads. This process involves innovative techniques. Our team from Digibros prepares
+                            Emails by adding interesting stuff like offers, coupons, discounts.
+
+                        </p>
+                    </Grid>
+                    <Grid item md={5} xs={12} className="grid-item">
+                        <Lottie isClickToPauseDisabled={true} options={EmailMarketingLottie} width={400} />
+                    </Grid>
+                </Grid>
+                {/* ==================================================== */}
+                <Grid container className="grid-container">
+                    <Grid item md={7} xs={12} className="grid-item">
+                        <h1>8. Graphic designing</h1>
+                        <p>
+                            <h3>Designs that you can’t ignore</h3><br />
+                            There are three responses to a piece of design – yes, no, and WOW! Our team from
+                            Digibros provides you graphic designs in such a way that the only reply you will have is
+                            WOW! Our team from Digibros creates visual content to communicate messages by
+                            applying visual hierarchy and page layout techniques, designers use typography and
+                            pictures to meet users' specific needs and focus on the logic of displaying elements in
+                            interactive designs, to optimize the user experience.
+                        </p>
+                        <p>
+                            We provide you with both 2d and 3d static designs such that it optimizes the user
+                            experience and makes the website more interactive.
+                        </p>
+
+                    </Grid>
+                    <Grid item md={5} xs={12} className="grid-item">
+                        <Lottie isClickToPauseDisabled={true} options={GraphicDesignLottie} width={400} />
+                    </Grid>
+                </Grid>
+                {/* ==================================================== */}
+                <Grid container className="grid-container">
+                    <Grid item md={7} xs={12} className="grid-item">
+                        <h1>9. Poster & Brochures</h1>
+                        <p>
+                            Our team from Digibros is expert in designing brand logos, featured images, etc
+                            according to your business theme.
+
+                        </p>
+                        <p>
+                            In general, making creative and innovative designs is not a born talent. It will come with
+                            years of experience and our creativity. By recognizing this, we have hired a well
+                            experienced team well experienced in both poster and brochure designs and we can
+                            always customize to the customers request. Similarly our team from Digibros also
+                            provides visiting cards, logo designs required by the client according to their
+                            customization.
+                        </p>
+
+                    </Grid>
+                    <Grid item md={5} xs={12} className="grid-item">
+                        <Lottie isClickToPauseDisabled={true} options={PosterAndBrochureLottie} width={400} />
+                    </Grid>
+                </Grid>
+                {/* ==================================================== */}
+
+
                 <Button className="btn" variant="contained" color="primary" disableElevation>Get A Quote</Button>
                 <br /><br />
-                <p>
-                    Don't let your competitors beat you! Improve your
-                    online presence with our digital marketing services!
 
-                </p>
 
             </div>
         </div>
