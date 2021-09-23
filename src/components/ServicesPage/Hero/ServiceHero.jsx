@@ -42,7 +42,7 @@ export const ServiceHero = () => {
                         </p>
                     </Grid>
                     <Grid item md={5} xs={12} className="grid-item">
-                        <Lottie isClickToPauseDisabled={true} options={WebDesigningLottie} width={400} />
+                        <Lottie isClickToPauseDisabled={true} options={WebDesigningLottie} />
                     </Grid>
                 </Grid>
                 <Grid container className="grid-container">
@@ -61,7 +61,7 @@ export const ServiceHero = () => {
                         </p>
                     </Grid>
                     <Grid item md={5} xs={12} className="grid-item">
-                        <Lottie isClickToPauseDisabled={true} options={WebsiteForStartupLottie} width={400} />
+                        <Lottie isClickToPauseDisabled={true} options={WebsiteForStartupLottie} />
                     </Grid>
                 </Grid>
                 <Grid container className="grid-container">
@@ -80,7 +80,7 @@ export const ServiceHero = () => {
                         </p>
                     </Grid>
                     <Grid item md={5} xs={12} className="grid-item">
-                        <Lottie isClickToPauseDisabled={true} options={WebsiteForGrowingBusinessLottie} width={400} />
+                        <Lottie isClickToPauseDisabled={true} options={WebsiteForGrowingBusinessLottie} />
                     </Grid>
                 </Grid>
                 <Grid container className="grid-container">
@@ -103,7 +103,7 @@ export const ServiceHero = () => {
                         </p>
                     </Grid>
                     <Grid item md={5} xs={12} className="grid-item">
-                        <Lottie isClickToPauseDisabled={true} options={WebsiteForRevampLottie} width={400} />
+                        <Lottie isClickToPauseDisabled={true} options={WebsiteForRevampLottie} />
                     </Grid>
                 </Grid>
 
@@ -123,7 +123,7 @@ export const ServiceHero = () => {
                         </p>
                     </Grid>
                     <Grid item md={5} xs={12} className="grid-item">
-                        <Lottie isClickToPauseDisabled={true} options={EcommerceLottie} width={400} />
+                        <Lottie isClickToPauseDisabled={true} options={EcommerceLottie} />
                     </Grid>
                 </Grid>
                 {/* ==================================================== */}
@@ -143,7 +143,7 @@ export const ServiceHero = () => {
                         </p>
                     </Grid>
                     <Grid item md={5} xs={12} className="grid-item">
-                        <Lottie isClickToPauseDisabled={true} options={SEOLottie} width={400} />
+                        <Lottie isClickToPauseDisabled={true} options={SEOLottie} />
                     </Grid>
                 </Grid>
                 {/* ==================================================== */}
@@ -161,7 +161,7 @@ export const ServiceHero = () => {
                         </p>
                     </Grid>
                     <Grid item md={5} xs={12} className="grid-item">
-                        <Lottie isClickToPauseDisabled={true} options={SEMLottie} width={400} />
+                        <Lottie isClickToPauseDisabled={true} options={SEMLottie} />
                     </Grid>
                 </Grid>
                 {/* ==================================================== */}
@@ -182,7 +182,7 @@ export const ServiceHero = () => {
 
                     </Grid>
                     <Grid item md={5} xs={12} className="grid-item">
-                        <Lottie isClickToPauseDisabled={true} options={SMMLottie} width={400} />
+                        <Lottie isClickToPauseDisabled={true} options={SMMLottie} />
                     </Grid>
                 </Grid>
                 {/* ==================================================== */}
@@ -205,7 +205,7 @@ export const ServiceHero = () => {
 
                     </Grid>
                     <Grid item md={5} xs={12} className="grid-item">
-                        <Lottie isClickToPauseDisabled={true} options={ContentMarketingLottie} width={400} />
+                        <Lottie isClickToPauseDisabled={true} options={ContentMarketingLottie} />
                     </Grid>
                 </Grid>
                 {/* ==================================================== */}
@@ -222,7 +222,7 @@ export const ServiceHero = () => {
                         </p>
                     </Grid>
                     <Grid item md={5} xs={12} className="grid-item">
-                        <Lottie isClickToPauseDisabled={true} options={EmailMarketingLottie} width={400} />
+                        <Lottie isClickToPauseDisabled={true} options={EmailMarketingLottie} />
                     </Grid>
                 </Grid>
                 {/* ==================================================== */}
@@ -245,7 +245,7 @@ export const ServiceHero = () => {
 
                     </Grid>
                     <Grid item md={5} xs={12} className="grid-item">
-                        <Lottie isClickToPauseDisabled={true} options={GraphicDesignLottie} width={400} />
+                        <Lottie isClickToPauseDisabled={true} options={GraphicDesignLottie} />
                     </Grid>
                 </Grid>
                 {/* ==================================================== */}
@@ -268,7 +268,7 @@ export const ServiceHero = () => {
 
                     </Grid>
                     <Grid item md={5} xs={12} className="grid-item">
-                        <Lottie isClickToPauseDisabled={true} options={PosterAndBrochureLottie} width={400} />
+                        <Lottie isClickToPauseDisabled={true} options={PosterAndBrochureLottie} />
                     </Grid>
                 </Grid>
                 {/* ==================================================== */}
