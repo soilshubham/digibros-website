@@ -30,7 +30,7 @@ export const ServiceHero = () => {
             <div className="content">
                 <Grid container className="grid-container">
                     <Grid item md={7} xs={12} className="grid-item">
-                        <h1 style={{ paddingTop: "0rem" }}>1. Web Designing</h1>
+                        <h1 id="wd-01" style={{ paddingTop: "0rem" }}>1. Web Designing</h1>
                         <p>
                             <h3>Create a brand, not just a website</h3><br />
                             <strong>Web designing is like a painting except the painting never dries. </strong> We know Web
@@ -47,7 +47,7 @@ export const ServiceHero = () => {
                 </Grid>
                 <Grid container className="grid-container">
                     <Grid item md={7} xs={12} className="grid-item">
-                        <h2>Website for startup</h2>
+                        <h2 >Website for startup</h2>
                         <p>
                             For a startup to thrive or attract customers you need a great online presence and this can
                             be done at our Digibros, kick start your business with the help of our well experienced
@@ -110,7 +110,7 @@ export const ServiceHero = () => {
                 {/* ==================================================== */}
                 <Grid container className="grid-container">
                     <Grid item md={7} xs={12} className="grid-item">
-                        <h1>2. E-Commerce</h1>
+                        <h1 id="wd-02">2. E-Commerce</h1>
                         <p>
                             <strong>Ecommerce</strong> , also known as electronic commerce or internet commerce, refers to the
                             buying and selling of goods or services using the internet, and the transfer of money and
@@ -129,7 +129,7 @@ export const ServiceHero = () => {
                 {/* ==================================================== */}
                 <Grid container className="grid-container">
                     <Grid item md={7} xs={12} className="grid-item">
-                        <h1>3. SEO</h1>
+                        <h1 id="m-01">3. SEO</h1>
                         <p>
                             <h3>Be the first priority to your customer.</h3><br />
                             <strong>Google only loves you when everyone else loves you </strong> even though the statement is
@@ -149,7 +149,7 @@ export const ServiceHero = () => {
                 {/* ==================================================== */}
                 <Grid container className="grid-container">
                     <Grid item md={7} xs={12} className="grid-item">
-                        <h1>4. SEM</h1>
+                        <h1 id="m-02">4. SEM</h1>
                         <p>
                             <h3>Be Everywhere</h3><br />
                             Digital Marketing is not an art of selling a product. It is an art of making people buy the
@@ -161,13 +161,13 @@ export const ServiceHero = () => {
                         </p>
                     </Grid>
                     <Grid item md={5} xs={12} className="grid-item">
-                        <Lottie isClickToPauseDisabled={true} options={SEMLottie} />
+                        <Lottie isClickToPauseDisabled={true} options={SEMLottie} width="90%" />
                     </Grid>
                 </Grid>
                 {/* ==================================================== */}
                 <Grid container className="grid-container">
                     <Grid item md={7} xs={12} className="grid-item">
-                        <h1>5. SMM</h1>
+                        <h1 id="m-03">5. SMM</h1>
                         <p>
                             <h3>Engage and entertain.</h3><br />
                             Social media marketing is the use of social media platforms and websites to promote a
@@ -188,7 +188,7 @@ export const ServiceHero = () => {
                 {/* ==================================================== */}
                 <Grid container className="grid-container">
                     <Grid item md={7} xs={12} className="grid-item">
-                        <h1>6. Content Marketing</h1>
+                        <h1 id="m-04">6. Content Marketing</h1>
                         <p>
                             <h3>Think before you ink</h3><br />
                             Content marketing is a form of marketing focused on creating, publishing, and
@@ -211,7 +211,7 @@ export const ServiceHero = () => {
                 {/* ==================================================== */}
                 <Grid container className="grid-container">
                     <Grid item md={7} xs={12} className="grid-item">
-                        <h1>7. Email Marketing</h1>
+                        <h1 id="m-05">7. Email Marketing</h1>
                         <p>
                             <h3>Old is Gold.</h3><br />
                             Generally, Email Marketing is one of the ancient forms of marketing techniques. It is the
@@ -228,7 +228,7 @@ export const ServiceHero = () => {
                 {/* ==================================================== */}
                 <Grid container className="grid-container">
                     <Grid item md={7} xs={12} className="grid-item">
-                        <h1>8. Graphic designing</h1>
+                        <h1 id="c-01">8. Graphic designing</h1>
                         <p>
                             <h3>Designs that you can’t ignore</h3><br />
                             There are three responses to a piece of design – yes, no, and WOW! Our team from
@@ -251,7 +251,7 @@ export const ServiceHero = () => {
                 {/* ==================================================== */}
                 <Grid container className="grid-container">
                     <Grid item md={7} xs={12} className="grid-item">
-                        <h1>9. Poster & Brochures</h1>
+                        <h1 id="c-02">9. Poster & Brochures</h1>
                         <p>
                             Our team from Digibros is expert in designing brand logos, featured images, etc
                             according to your business theme.

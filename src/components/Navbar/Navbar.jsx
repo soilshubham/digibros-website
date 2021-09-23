@@ -6,6 +6,7 @@ import logo from '../../assets/Logo/logo.png'
 import Dropdown from "react-multilevel-dropdown";
 import "./Navbar.scss";
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export const Navbar = ({ variant }) => {
     const [navBarToggle, setNavBarToggle] = useState(false);
@@ -17,7 +18,7 @@ export const Navbar = ({ variant }) => {
                     <div
                         className="overlay"
                         onClick={() => {
-                            setNavBarToggle(!navBarToggle);
+                            setNavBarToggle(false);
                         }}
                     ></div>
                 ) : null}
@@ -35,7 +36,10 @@ export const Navbar = ({ variant }) => {
                     </li>
                     <li>
                         <Dropdown title="Services" position="right" buttonClassName="dropdown" menuClassName="dropdown-menu">
-                            <Link to="/services">
+                            <Link to="/services" onClick={() => {
+                                setNavBarToggle(false);
+                            }}
+                            >
                                 <Dropdown.Item className="dropdown-items">
                                     All Services
                                 </Dropdown.Item>
@@ -43,61 +47,97 @@ export const Navbar = ({ variant }) => {
                             <Dropdown.Item className="dropdown-items">
                                 Web Development
                                 <Dropdown.Submenu position={window.innerWidth <= 968 ? "right" : "left"} className="dropdown-submenu">
-                                    <Link to="/services">
+                                    <HashLink smooth to="/services#wd-01"
+                                        onClick={() => {
+                                            setNavBarToggle(false);
+                                        }}
+                                    >
                                         <Dropdown.Item className="dropdown-items">
                                             Web Designing
                                         </Dropdown.Item>
-                                    </Link>
-                                    <Link to="/services">
+                                    </HashLink>
+                                    <HashLink smooth to="/services#wd-02"
+                                        onClick={() => {
+                                            setNavBarToggle(false);
+                                        }}
+                                    >
                                         <Dropdown.Item className="dropdown-items">
                                             E-Commerce
                                         </Dropdown.Item>
-                                    </Link>
+                                    </HashLink>
                                 </Dropdown.Submenu>
                             </Dropdown.Item>
                             <Dropdown.Item className="dropdown-items">
                                 Marketing
                                 <Dropdown.Submenu position={window.innerWidth <= 968 ? "right" : "left"} className="dropdown-submenu">
-                                    <Link to="/services">
+                                    <HashLink smooth to="/services#m-01"
+                                        onClick={() => {
+                                            setNavBarToggle(false);
+                                        }}
+                                    >
                                         <Dropdown.Item className="dropdown-items">
                                             SEO
                                         </Dropdown.Item>
-                                    </Link>
-                                    <Link to="/services">
+                                    </HashLink>
+                                    <HashLink smooth to="/services#m-02"
+                                        onClick={() => {
+                                            setNavBarToggle(false);
+                                        }}
+                                    >
                                         <Dropdown.Item className="dropdown-items">
                                             SEM
                                         </Dropdown.Item>
-                                    </Link>
-                                    <Link to="/services">
+                                    </HashLink>
+                                    <HashLink smooth to="/services#m-03"
+                                        onClick={() => {
+                                            setNavBarToggle(false);
+                                        }}
+                                    >
                                         <Dropdown.Item className="dropdown-items">
                                             SMM
                                         </Dropdown.Item>
-                                    </Link>
-                                    <Link to="/services">
+                                    </HashLink>
+                                    <HashLink smooth to="/services#m-04"
+                                        onClick={() => {
+                                            setNavBarToggle(false);
+                                        }}
+                                    >
                                         <Dropdown.Item className="dropdown-items">
                                             Content Marketing
                                         </Dropdown.Item>
-                                    </Link>
-                                    <Link to="/services">
+                                    </HashLink>
+                                    <HashLink smooth to="/services#m-05"
+                                        onClick={() => {
+                                            setNavBarToggle(false);
+                                        }}
+                                    >
                                         <Dropdown.Item className="dropdown-items">
                                             Email marketing
                                         </Dropdown.Item>
-                                    </Link>
+                                    </HashLink>
                                 </Dropdown.Submenu>
                             </Dropdown.Item>
                             <Dropdown.Item className="dropdown-items">
                                 Creative
                                 <Dropdown.Submenu position={window.innerWidth <= 968 ? "right" : "left"} className="dropdown-submenu">
-                                    <Link to="/services">
+                                    <HashLink smooth to="/services#c-01"
+                                        onClick={() => {
+                                            setNavBarToggle(false);
+                                        }}
+                                    >
                                         <Dropdown.Item className="dropdown-items">
                                             Graphic designing
                                         </Dropdown.Item>
-                                    </Link>
-                                    <Link to="/services">
+                                    </HashLink>
+                                    <HashLink smooth to="/services#c-02"
+                                        onClick={() => {
+                                            setNavBarToggle(false);
+                                        }}
+                                    >
                                         <Dropdown.Item className="dropdown-items">
                                             Poster & Brochures
                                         </Dropdown.Item>
-                                    </Link>
+                                    </HashLink>
                                 </Dropdown.Submenu>
                             </Dropdown.Item>
                         </Dropdown>
