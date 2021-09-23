@@ -22,6 +22,7 @@ export const Navbar = ({ variant }) => {
                     ></div>
                 ) : null}
                 <div className="nav-logo"><img src={logo} className="logo" /></div>
+                {/* <div className="nav-logo"><div className="logo" >DigiBros</div></div> */}
                 <ul className={`nav-links ${navBarToggle ? "active" : ""} ${variant}`}>
                     <li>
                         <Link to="/">Home</Link>
@@ -34,11 +35,11 @@ export const Navbar = ({ variant }) => {
                     </li>
                     <li>
                         <Dropdown title="Services" position="right" buttonClassName="dropdown" menuClassName="dropdown-menu">
-                            <Dropdown.Item className="dropdown-items">
-                                <Link to="/services">
+                            <Link to="/services">
+                                <Dropdown.Item className="dropdown-items">
                                     All Services
-                                </Link>
-                            </Dropdown.Item>
+                                </Dropdown.Item>
+                            </Link>
                             <Dropdown.Item className="dropdown-items">
                                 Web Development
                                 <Dropdown.Submenu position={window.innerWidth <= 968 ? "right" : "left"} className="dropdown-submenu">
