@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Grid } from "@material-ui/core";
 import Lottie from 'react-lottie';
-import laptopAnimation from '../../assets/Lottie/laptop.json'
+import laptopAnimation from '../../../../assets/Lottie/laptop.json'
 import "./Hero.scss";
 
 export const Hero = () => {

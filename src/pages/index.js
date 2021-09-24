@@ -1,5 +1,5 @@
 export { AboutPage } from "./AboutPage";
-export { ContactPage } from "./ContactPage";
+export { GetQuotePage } from "./GetQuotePage";
 export { HomePage } from "./HomePage";
 export { ServicesPage } from "./ServicesPage";
 

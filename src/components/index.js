@@ -1,13 +1,15 @@
-export { Footer } from './Footer/Footer'
-export { Contact } from './Contact/Contact'
 export { Navbar } from './Navbar/Navbar'
-export { Hero } from './Hero/Hero'
-export { About } from './About/About'
-export { Services } from './Services/Services'
+export { Footer } from './Footer/Footer'
 
-export { AboutContent } from './AboutPage/Content/AboutContent'
-export { AboutHero } from './AboutPage/Hero/AboutHero'
+export { Contact } from './PagesComponent/HomePage/Contact/Contact'
+export { Hero } from './PagesComponent/HomePage/Hero/Hero'
+export { About } from './PagesComponent/HomePage/About/About'
+export { Services } from './PagesComponent/HomePage/Services/Services'
 
-export { ServiceContent } from './ServicesPage/Content/ServiceContent'
-export { ServiceHero } from './ServicesPage/Hero/ServiceHero'
+
+export { AboutContent } from './PagesComponent/AboutPage/AboutContent'
+
+export { ServiceContent } from './PagesComponent/ServicesPage/ServiceContent'
+
+export { GetQuoteContent } from './PagesComponent/GetQuotePage/GetQuoteContent'
 

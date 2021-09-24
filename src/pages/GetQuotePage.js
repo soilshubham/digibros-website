@@ -1,13 +1,14 @@
 import React from 'react'
 import './pages.scss'
 
-import { Navbar, AboutContent, Footer } from '../components';
+import { Navbar, GetQuoteContent, Footer } from '../components';
 
-export const AboutPage = () => {
+
+export const GetQuotePage = () => {
     return (
         <>
             <Navbar variant="dark" />
-            <AboutContent />
+            <GetQuoteContent />
             <Footer />
         </>
     )

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './App.scss'
 
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
-import { HomePage, AboutPage, ServicesPage, ContactPage } from './pages';
+import { HomePage, AboutPage, ServicesPage, GetQuotePage } from './pages';
 
 
 const App = () => {
@@ -17,6 +17,9 @@ const App = () => {
                 </Route>
                 <Route path="/services">
                     <ServicesPage />
+                </Route>
+                <Route path="/contact">
+                    <GetQuotePage />
                 </Route>
             </Switch>
         </Router>

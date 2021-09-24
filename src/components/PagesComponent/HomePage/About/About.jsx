@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Button, Grid, Typography } from "@material-ui/core";
 import Lottie from 'react-lottie';
-import laptopManAnimation from '../../assets/Lottie/laptopMan.json'
+import laptopManAnimation from '../../../../assets/Lottie/laptopMan.json'
 import './About.scss'
 export class About extends Component {
     render() {

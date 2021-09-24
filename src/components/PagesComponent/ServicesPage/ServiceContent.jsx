@@ -1,5 +1,5 @@
 import React from 'react'
-import "./ServiceHero.scss";
+import "./ServiceContent.scss";
 import { Button, Grid } from "@material-ui/core";
 import { Link } from 'react-router-dom';
 
@@ -21,7 +21,7 @@ import {
 import { SendOutlined } from '@material-ui/icons';
 
 
-export const ServiceHero = () => {
+export const ServiceContent = () => {
 
 
     return (

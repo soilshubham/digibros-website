@@ -1,12 +1,12 @@
 import React from 'react'
-import "./AboutHero.scss";
+import "./AboutContent.scss";
 import { Button, Grid } from "@material-ui/core";
 import Akhil from '../../../assets/Images/akhil.jpg'
 import Nitin from '../../../assets/Images/nitin.jpg'
 import Prakash from '../../../assets/Images/prakash.jpg'
 import { Link } from 'react-router-dom';
 
-export const AboutHero = () => {
+export const AboutContent = () => {
     return (
         <div className="about-hero">
             <Grid container className="grid-container">
