@@ -32,7 +32,7 @@ export const Navbar = ({ variant }) => {
                         <Link to="/about">About</Link>
                     </li>
                     <li>
-                        <Link to="/contact">Contact</Link>
+                        <HashLink smooth to="/#contact">Contact</HashLink>
                     </li>
                     <li>
                         <Dropdown title="Services" position="right" buttonClassName="dropdown" menuClassName="dropdown-menu">
@@ -143,14 +143,16 @@ export const Navbar = ({ variant }) => {
                         </Dropdown>
                     </li>
                     <li>
-                        <Button
-                            className="btn"
-                            variant="contained"
-                            color="primary"
-                            disableElevation
-                        >
-                            Get A Quote
-                        </Button>
+                        <Link to="/contact">
+                            <Button
+                                className="btn"
+                                variant="contained"
+                                color="primary"
+                                disableElevation
+                            >
+                                Get A Quote
+                            </Button>
+                        </Link>
                     </li>
                 </ul>
                 <MenuIcon

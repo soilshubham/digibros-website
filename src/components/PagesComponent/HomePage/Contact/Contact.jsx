@@ -6,7 +6,7 @@ import { Button, Grid, Typography } from "@material-ui/core";
 
 export const Contact = () => {
     return (
-        <div className="contact">
+        <div id="contact" className="contact">
             <div className="contact-container">
 
                 <Grid container className="title-grid">
