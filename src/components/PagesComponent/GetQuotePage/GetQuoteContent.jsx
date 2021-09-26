@@ -6,7 +6,7 @@ import { Button, Grid, TextField, MenuItem } from "@material-ui/core";
 export const GetQuoteContent = () => {
     return (
         <div className="getquote-hero" id="getquote">
-            <div className="heading">Get A Quote</div>
+            <div className="heading">Get a Quote</div>
             <div className="content">
                 <Grid container className="grid-container">
                     <Grid item md={6} xs={12} className="grid-item">
@@ -55,16 +55,31 @@ export const GetQuoteContent = () => {
                                 className="text-field"
                             >
                                 <MenuItem value="Feature number 1">
-                                    Feature number 1
+                                    Web designing
                                 </MenuItem>
                                 <MenuItem value="Feature number 2">
-                                    Feature number 2
+                                    E-commerce
                                 </MenuItem>
                                 <MenuItem value="Feature number 3">
-                                    Feature number 3
+                                    SEO
                                 </MenuItem>
                                 <MenuItem value="Feature number 4">
-                                    Feature number 4
+                                    SEM
+                                </MenuItem>
+                                <MenuItem value="Feature number 4">
+                                    SMM
+                                </MenuItem>
+                                <MenuItem value="Feature number 4">
+                                    Content Marketing
+                                </MenuItem>
+                                <MenuItem value="Feature number 4">
+                                    Email Marketing
+                                </MenuItem>
+                                <MenuItem value="Feature number 4">
+                                    Graphic Designing
+                                </MenuItem>
+                                <MenuItem value="Feature number 4">
+                                    Posters & Brouchure
                                 </MenuItem>
 
                             </TextField>
