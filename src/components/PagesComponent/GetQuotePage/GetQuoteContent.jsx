@@ -19,16 +19,19 @@ export const GetQuoteContent = () => {
                             </p>
                             <div className="links">
                                 <div className="">
-                                    <a href=""> <i className="fas fa-phone-alt" />&nbsp;+91 9080694955 </a>
+                                    <a href="https://api.whatsapp.com/send?phone=+918500690700"> <i className="fas fa-phone-alt" />&nbsp;+91 8500690700 </a>
                                 </div>
                                 <div className="">
-                                    <a href=""> <i className="fas fa-phone-alt" />&nbsp;+91 9080694955 </a>
+                                    <a href="https://api.whatsapp.com/send?phone=+919618234477"> <i className="fas fa-phone-alt" />&nbsp;+91 9618234477 </a>
+                                </div>
+                                <div className="">
+                                    <a href="https://api.whatsapp.com/send?phone=+917287054762"> <i className="fas fa-phone-alt" />&nbsp;+91 7287054762 </a>
                                 </div>
                                 <div className="subtitle">
                                     <i className=""> (Call Us To Get Started) </i>
                                 </div>
                                 <div className="">
-                                    <a href=""><i className="fas fa-envelope" />&nbsp;info@digibros.in</a>
+                                    <a href="mailto:digibros2021@gmail.com"><i className="fas fa-envelope" />&nbsp;info@digibros.in</a>
                                 </div>
                                 <div className="subtitle">
                                     <i className=""> (Mail Us To Get Started) </i>

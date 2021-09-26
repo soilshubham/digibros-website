@@ -22,17 +22,18 @@ export const Contact = () => {
                 </Grid>
                 <Grid container className="contact-grid">
                     <Grid item md={4} xs={12} className="grid-item phone">
-                        <a href=""> <i className="fas fa-phone-alt" />&nbsp;+91 9080694955 </a>
-                        <a href=""> <i className="fas fa-phone-alt" />&nbsp;+91 9080694955 </a>
+                        <a href="https://api.whatsapp.com/send?phone=+918500690700"> <i className="fas fa-phone-alt" />&nbsp;+91 8500690700 </a>
+                        <a href="https://api.whatsapp.com/send?phone=+919618234477"> <i className="fas fa-phone-alt" />&nbsp;+91 9618234477 </a>
+                        <a href="https://api.whatsapp.com/send?phone=+917287054762"> <i className="fas fa-phone-alt" />&nbsp;+91 7287054762 </a>
                     </Grid>
                     <Grid item md={4} xs={12} className="grid-item">
-                        <a href=""><i className="fas fa-envelope" />&nbsp;info@digibros.in</a>
+                        <a href="mailto:digibros2021@gmail.com"><i className="fas fa-envelope" />&nbsp;digibros2021@gmail.com</a>
                     </Grid>
                     <Grid item md={4} xs={12} className="grid-item">
                         <HashLink to="/contact#getquote">
                             <Button
                                 className="btn"
-                                href="./services.html"
+
                             >
                                 <i className="fas fa-paper-plane" />&nbsp;Get A Quote
                             </Button>
