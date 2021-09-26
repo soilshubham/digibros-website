@@ -1,5 +1,7 @@
+
 export { Navbar } from './Navbar/Navbar'
 export { Footer } from './Footer/Footer'
+export { ScrollTopButton } from './ScrollTopButton/ScrollTopButton'
 
 export { Contact } from './PagesComponent/HomePage/Contact/Contact'
 export { Hero } from './PagesComponent/HomePage/Hero/Hero'

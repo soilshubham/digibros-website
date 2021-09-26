@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contact.scss'
+import { HashLink } from 'react-router-hash-link';
 
 import { Button, Grid, Typography } from "@material-ui/core";
 
@@ -28,12 +29,14 @@ export const Contact = () => {
                         <a href=""><i className="fas fa-envelope" />&nbsp;info@digibros.in</a>
                     </Grid>
                     <Grid item md={4} xs={12} className="grid-item">
-                        <a
-                            className="btn"
-                            href="./services.html"
-                        >
-                            <i className="fas fa-paper-plane" />&nbsp;Get A Quote
-                        </a>
+                        <HashLink to="/contact#getquote">
+                            <Button
+                                className="btn"
+                                href="./services.html"
+                            >
+                                <i className="fas fa-paper-plane" />&nbsp;Get A Quote
+                            </Button>
+                        </HashLink>
                     </Grid>
                 </Grid>
                 <Grid container className="contact-sub-grid">

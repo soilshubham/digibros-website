@@ -5,7 +5,7 @@ import { Button, Grid, TextField, MenuItem } from "@material-ui/core";
 
 export const GetQuoteContent = () => {
     return (
-        <div className="getquote-hero">
+        <div className="getquote-hero" id="getquote">
             <div className="heading">Get A Quote</div>
             <div className="content">
                 <Grid container className="grid-container">

@@ -45,6 +45,16 @@
     .text-field {
       width: 100%;
       margin-bottom: 1rem;
+      border-radius: 28px;
+    }
+
+    .MuiOutlinedInput-root {
+      border-radius: 28px;
+    }
+
+    .MuiOutlinedInput-input {
+      border-radius: 28px;
+      padding-left: 1.3rem;
     }
 
     .submit-btn {

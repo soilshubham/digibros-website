@@ -3,11 +3,14 @@ import './App.scss'
 
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import { HomePage, AboutPage, ServicesPage, GetQuotePage } from './pages';
+import { ScrollTopButton } from './components';
+
 
 
 const App = () => {
     return (
         <Router>
+            <ScrollTopButton />
             <Switch>
                 <Route exact path="/">
                     <HomePage />

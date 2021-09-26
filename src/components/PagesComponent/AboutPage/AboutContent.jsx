@@ -77,7 +77,7 @@ export const AboutContent = () => {
                                             Driven strategies with<br />
                                             The best suitable budget!
                                         </div>
-                                        <a href="#" className="learn-more">Know More <i className="fas fa-long-arrow-alt-right" /></a>
+                                        {/* <a href="#" className="learn-more">Know More <i className="fas fa-long-arrow-alt-right" /></a> */}
                                     </div>
                                 </Grid>
                                 <Grid item md={4} sm={12} xs={12} className="card-item">
@@ -90,7 +90,7 @@ export const AboutContent = () => {
                                             <br />
                                             <br />
                                         </div>
-                                        <a href="#" className="learn-more">Know More <i className="fas fa-long-arrow-alt-right" /></a>
+                                        {/* <a href="#" className="learn-more">Know More <i className="fas fa-long-arrow-alt-right" /></a> */}
                                     </div>
                                 </Grid>
                                 <Grid item md={4} sm={12} xs={12} className="card-item">
@@ -102,7 +102,7 @@ export const AboutContent = () => {
                                             <br />
                                             <br />
                                         </div>
-                                        <a href="#" className="learn-more">Know More <i className="fas fa-long-arrow-alt-right" /></a>
+                                        {/* <a href="#" className="learn-more">Know More <i className="fas fa-long-arrow-alt-right" /></a> */}
                                     </div>
                                 </Grid>
 

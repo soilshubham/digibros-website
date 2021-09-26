@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Button, Grid, Typography } from "@material-ui/core";
 import Lottie from 'react-lottie';
 import laptopManAnimation from '../../../../assets/Lottie/laptopMan.json'
+import { Link } from "react-router-dom";
 import './About.scss'
 export class About extends Component {
     render() {
@@ -23,22 +24,15 @@ export class About extends Component {
 
                         </Grid>
                         <Grid item md={6} className="grid-right">
-                            <div className="title" >What Is DigiBros?</div>
+                            <div className="title" >digibros make sure to invite the world around your business by helping you grow your business?</div>
                             <p className="content">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
-                                molestias eligendi, quod dolore vel harum commodi. Minima qui sed
-                                quia omnis, asperiores libero quod, eaque officia, quos et
-                                recusandae quas. Lorem, ipsum dolor sit amet consectetur adipisicing
-                                elit. Libero deleniti adipisci eos? Nesciunt, molestias molestiae eius
-                                dolores iure itaque nihil?
+                                get a customized quote and let your business sales echo!
+
                             </p>
-                            <p className="content">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
-                                molestias eligendi, quod dolore vel harum commodi. Minima qui sed
-                                quia omnis, asperiores libero quod, eaque officia, quos et
-                                recusandae quas.
-                            </p>
-                            <Button className="btn" variant="contained" color="primary" disableElevation>About Us</Button>
+
+                            <Link to="/about">
+                                <Button className="btn" variant="contained" color="primary" disableElevation>About Us</Button>
+                            </Link>
                         </Grid>
                     </Grid>
                 </div>
