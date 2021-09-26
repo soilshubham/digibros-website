@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/digibros-website/static/css/main.b906f831.chunk.css",
+    "main.css": "/digibros-website/static/css/main.78a9c085.chunk.css",
     "main.js": "/digibros-website/static/js/main.353ef4ed.chunk.js",
     "main.js.map": "/digibros-website/static/js/main.353ef4ed.chunk.js.map",
     "runtime-main.js": "/digibros-website/static/js/runtime-main.37e14c8f.js",
@@ -10,7 +10,7 @@
     "static/js/2.49ff0da8.chunk.js.map": "/digibros-website/static/js/2.49ff0da8.chunk.js.map",
     "index.html": "/digibros-website/index.html",
     "static/css/2.e5d00408.chunk.css.map": "/digibros-website/static/css/2.e5d00408.chunk.css.map",
-    "static/css/main.b906f831.chunk.css.map": "/digibros-website/static/css/main.b906f831.chunk.css.map",
+    "static/css/main.78a9c085.chunk.css.map": "/digibros-website/static/css/main.78a9c085.chunk.css.map",
     "static/js/2.49ff0da8.chunk.js.LICENSE.txt": "/digibros-website/static/js/2.49ff0da8.chunk.js.LICENSE.txt",
     "static/media/akhil.117434d4.jpg": "/digibros-website/static/media/akhil.117434d4.jpg",
     "static/media/logo.7cd375b7.png": "/digibros-website/static/media/logo.7cd375b7.png",
@@ -21,7 +21,7 @@
     "static/js/runtime-main.37e14c8f.js",
     "static/css/2.e5d00408.chunk.css",
     "static/js/2.49ff0da8.chunk.js",
-    "static/css/main.b906f831.chunk.css",
+    "static/css/main.78a9c085.chunk.css",
     "static/js/main.353ef4ed.chunk.js"
   ]
 }
