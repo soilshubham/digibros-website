@@ -22,7 +22,11 @@ export const Navbar = ({ variant }) => {
                         }}
                     ></div>
                 ) : null}
-                <div className="nav-logo"><img src={logo} className="logo" /></div>
+                <div className="nav-logo">
+                    <Link to="/">
+                        <img src={logo} className="logo" />
+                    </Link>
+                </div>
                 {/* <div className="nav-logo"><div className="logo" >DigiBros</div></div> */}
                 <ul className={`nav-links ${navBarToggle ? "active" : ""} ${variant}`}>
                     <li>

@@ -5,6 +5,7 @@ import Akhil from '../../../assets/Images/akhil.jpg'
 import Nitin from '../../../assets/Images/nitin.jpg'
 import Prakash from '../../../assets/Images/prakash.jpg'
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 export const AboutContent = () => {
     return (
@@ -13,7 +14,9 @@ export const AboutContent = () => {
                 <Grid item xs={12} className="title">
                     <div className="heading">About Us</div>
                     <div className="call-to-action">
-                        <Button className="btn" variant="contained" color="primary" disableElevation>Get A Quote</Button>
+                        <HashLink smooth to="/contact">
+                            <Button className="btn" variant="contained" color="primary" disableElevation>Get A Quote</Button>
+                        </HashLink>
                     </div>
                     <div className="content">
                         <h1>Introduction</h1>
@@ -35,21 +38,21 @@ export const AboutContent = () => {
                                     <div className="card">
                                         <div className="icon"><i className="fas fa-window-restore" /></div>
                                         <div className="title">Web Development</div>
-                                        <Link to="/services" className="learn-more">Learn More</Link>
+                                        <HashLink smo to="/services#wd-01" className="learn-more">Learn More</HashLink>
                                     </div>
                                 </Grid>
                                 <Grid item md={4} sm={12} xs={12} className="card-item">
                                     <div className="card">
                                         <div className="icon"><i className="fas fa-bullhorn" /></div>
                                         <div className="title">Marketing</div>
-                                        <Link to="/services" className="learn-more">Learn More</Link>
+                                        <HashLink smo to="/services#m-01" className="learn-more">Learn More</HashLink>
                                     </div>
                                 </Grid>
                                 <Grid item md={4} sm={12} xs={12} className="card-item">
                                     <div className="card">
                                         <div className="icon"><i className="fas fa-palette" /></div>
                                         <div className="title">Creative</div>
-                                        <Link to="/services" className="learn-more">Learn More</Link>
+                                        <HashLink smo to="/services#c-01" className="learn-more">Learn More</HashLink>
                                     </div>
                                 </Grid>
 

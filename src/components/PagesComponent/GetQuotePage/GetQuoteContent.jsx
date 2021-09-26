@@ -31,7 +31,7 @@ export const GetQuoteContent = () => {
                                     <i className=""> (Call Us To Get Started) </i>
                                 </div>
                                 <div className="">
-                                    <a href="mailto:digibros2021@gmail.com"><i className="fas fa-envelope" />&nbsp;info@digibros.in</a>
+                                    <a href="mailto:digibros2021@gmail.com"><i className="fas fa-envelope" />&nbsp;digibros2021@gmail.com</a>
                                 </div>
                                 <div className="subtitle">
                                     <i className=""> (Mail Us To Get Started) </i>
