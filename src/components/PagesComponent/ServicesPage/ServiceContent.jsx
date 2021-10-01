@@ -2,6 +2,7 @@ import React from 'react'
 import "./ServiceContent.scss";
 import { Button, Grid } from "@material-ui/core";
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 import Lottie from 'react-lottie';
 import {
@@ -273,8 +274,10 @@ export const ServiceContent = () => {
                 </Grid>
                 {/* ==================================================== */}
 
+                <HashLink to="/contact#getquote">
+                    <Button className="btn" variant="contained" color="primary" disableElevation>Get A Quote</Button>
 
-                <Button className="btn" variant="contained" color="primary" disableElevation>Get A Quote</Button>
+                </HashLink>
                 <br /><br />
 
 

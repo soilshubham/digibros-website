@@ -3,6 +3,7 @@ import { Button, Grid, Typography } from "@material-ui/core";
 import Lottie from 'react-lottie';
 import laptopManAnimation from '../../../../assets/Lottie/laptopMan.json'
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 import './About.scss'
 export class About extends Component {
     render() {
@@ -30,9 +31,9 @@ export class About extends Component {
 
                             </p>
 
-                            <Link to="/about">
-                                <Button className="btn" variant="contained" color="primary" disableElevation>About Us</Button>
-                            </Link>
+                            <HashLink to="/contact#getquote">
+                                <Button className="btn" variant="contained" color="primary" disableElevation>Get A Quote</Button>
+                            </HashLink>
                         </Grid>
                     </Grid>
                 </div>

@@ -26,9 +26,11 @@ export const Footer = () => {
                             <h2>Address</h2>
                         </div>
                         <p>
-                            Saptagiri appartments flat no.203,<br />
-                            4/2 Lakshmipuram, Guntur (522007)<br />
-                            <strong>+91 8500690700</strong>
+                            <a href="https://goo.gl/maps/uaqKCzwrxsTxnxwK6" target="_blank">
+                                Saptagiri appartments flat no.203,<br />
+                                4/2 Lakshmipuram, Guntur (522007)<br />
+                            </a>
+                            <strong><a href="tel:8500690700">+91 8500690700</a></strong>
                         </p>
                     </div>
                 </Grid>
@@ -44,9 +46,6 @@ export const Footer = () => {
                             </a>
                             <a target="_blank" href="https://www.instagram.com/digibros2021/">
                                 <i className="fab fa-instagram" />
-                            </a>
-                            <a target="_blank" href="https://api.whatsapp.com/send?phone=+918500690700">
-                                <i className="fab fa-whatsapp" />
                             </a>
                         </div>
                         <p>

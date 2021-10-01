@@ -117,7 +117,9 @@ export const AboutContent = () => {
                             short - we do everything.<br /><br />
                             We are the best choice for your business
                         </p>
-                        <Button className="btn" variant="contained" color="primary" disableElevation>Get A Quote</Button>
+                        <HashLink smooth to="/contact#getquote">
+                            <Button className="btn" variant="contained" color="primary" disableElevation>Get A Quote</Button>
+                        </HashLink>
                         <br /><br />
                         <p>
                             Don't let your competitors beat you! Improve your

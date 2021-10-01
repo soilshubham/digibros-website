@@ -22,9 +22,9 @@ export const Contact = () => {
                 </Grid>
                 <Grid container className="contact-grid">
                     <Grid item md={4} xs={12} className="grid-item phone">
-                        <a href="https://api.whatsapp.com/send?phone=+918500690700"> <i className="fas fa-phone-alt" />&nbsp;+91 8500690700 </a>
-                        <a href="https://api.whatsapp.com/send?phone=+919618234477"> <i className="fas fa-phone-alt" />&nbsp;+91 9618234477 </a>
-                        <a href="https://api.whatsapp.com/send?phone=+917287054762"> <i className="fas fa-phone-alt" />&nbsp;+91 7287054762 </a>
+                        <a href="tel:8500690700"> <i className="fas fa-phone-alt" />&nbsp;+91 8500690700 </a>
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=+919618234477"> <i className="fas fa-phone-alt" />&nbsp;+91 9618234477 </a>
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=+917287054762"> <i className="fas fa-phone-alt" />&nbsp;+91 7287054762 </a>
                     </Grid>
                     <Grid item md={4} xs={12} className="grid-item">
                         <a href="mailto:digibros2021@gmail.com"><i className="fas fa-envelope" />&nbsp;digibros2021@gmail.com</a>
