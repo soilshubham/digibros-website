@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './GetQuoteContent.scss'
+import { Button, Grid, TextField, MenuItem, Box } from "@material-ui/core";
 
-import { Button, Grid, TextField, MenuItem } from "@material-ui/core";
+import emailjs from 'emailjs-com';
 
 export const GetQuoteContent = () => {
+    const [name, setName] = useState("")
+    const [phone, setPhone] = useState("")
+    const [email, setEmail] = useState("")
+    const [look, setLook] = useState("")
+    const [msg, setMsg] = useState("")
+
+
     return (
         <div className="getquote-hero" id="getquote">
             <div className="heading">Get a Quote</div>
@@ -43,47 +51,65 @@ export const GetQuoteContent = () => {
                     </Grid>
                     <Grid item md={6} xs={12} className="grid-item">
                         <div className="form">
-                            <TextField required id="outlined-basic" label="Name" variant="outlined" className="text-field" />
-                            <TextField required id="outlined-number" label="Phone Number" variant="outlined" type="number" className="text-field" />
-                            <TextField required id="outlined-basic" label="Email Address" variant="outlined" className="text-field" />
+
                             <TextField
+                                onChange={(e) => setName(e.target.value)}
+                                required id="outlined-basic" label="Name" variant="outlined" className="text-field" />
+                            <TextField
+                                onChange={(e) => setPhone(e.target.value)}
+                                required id="outlined-number" label="Phone Number" variant="outlined" type="number" className="text-field" />
+                            <TextField
+                                onChange={(e) => setEmail(e.target.value)}
+                                required id="outlined-basic" label="Email Address" variant="outlined" className="text-field" />
+                            <TextField
+
+                                onChange={(e) => setLook(e.target.value)}
                                 required
                                 id="outlined-select-feature"
                                 select
                                 label="Looking For..."
                                 variant="outlined"
                                 className="text-field"
+                                anchorOrigin={{
+                                    vertical: "bottom",
+                                    horizontal: "left"
+                                }}
+                                transformOrigin={{
+                                    vertical: "top",
+                                    horizontal: "left"
+                                }}
                             >
-                                <MenuItem value="Feature number 1">
+                                <MenuItem value="Web designing">
                                     Web designing
                                 </MenuItem>
-                                <MenuItem value="Feature number 2">
+                                <MenuItem value="E-commerce">
                                     E-commerce
                                 </MenuItem>
-                                <MenuItem value="Feature number 3">
+                                <MenuItem value="SEO">
                                     SEO
                                 </MenuItem>
-                                <MenuItem value="Feature number 4">
+                                <MenuItem value="SEM">
                                     SEM
                                 </MenuItem>
-                                <MenuItem value="Feature number 4">
+                                <MenuItem value="SMM">
                                     SMM
                                 </MenuItem>
-                                <MenuItem value="Feature number 4">
+                                <MenuItem value="Content Marketing">
                                     Content Marketing
                                 </MenuItem>
-                                <MenuItem value="Feature number 4">
+                                <MenuItem value="Email Marketing">
                                     Email Marketing
                                 </MenuItem>
-                                <MenuItem value="Feature number 4">
+                                <MenuItem value="Graphic Designing">
                                     Graphic Designing
                                 </MenuItem>
-                                <MenuItem value="Feature number 4">
+                                <MenuItem value="Posters & Brouchure">
                                     Posters & Brouchure
                                 </MenuItem>
 
                             </TextField>
                             <TextField
+                                onChange={(e) => setMsg(e.target.value)}
                                 id="outlined-multiline-flexible"
                                 label="Your Message"
                                 multiline
@@ -91,7 +117,19 @@ export const GetQuoteContent = () => {
                                 variant="outlined"
                                 className="text-field"
                             />
-                            <Button className="submit-btn">Submit</Button>
+                            <Button className="submit-btn" onClick={() => {
+                                emailjs.send("service_jd6lo8m", "template_qoa3qd1", {
+                                    name: name,
+                                    phone: phone,
+                                    email: email,
+                                    look: look,
+                                    msg: msg,
+                                }, "user_MaYoe5iqZ7Re90Q1eelzv")
+                                    .then((res) => {
+                                        window.location.reload()
+                                    }
+                                    );
+                            }}>Submit</Button>
                         </div>
                     </Grid>
                 </Grid>
